@@ -52,16 +52,18 @@ public class MainActivity extends AppCompatActivity {
                 String msg = greetings.getText().toString();
 
                 //message in append in alert dialog
-                message = "Your order is " +
+                message = "" +
                             radioButton.getText().toString() +" "+
-                            radioButton2.getText().toString() +" cake with "+
-                            radioButton3.getText().toString() +" toppings " + "\n\nMessage: "+
+                            radioButton2.getText().toString() +" cake na may "+
+                            radioButton3.getText().toString() +" toppings sa ibabaw nito" + "\n\nAng mensahe: "+
                             msg;
 
 
                 AlertDialog.Builder alertDialogBuilder  = new AlertDialog.Builder(MainActivity.this);
+                alertDialogBuilder.setIcon(R.drawable.ic_cake_black_24dp);
+                alertDialogBuilder.setTitle("Ang cake na iyong napili ay ");
                 alertDialogBuilder.setMessage(message);
-                alertDialogBuilder.setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+                alertDialogBuilder.setPositiveButton("Okay na?", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 

@@ -4,25 +4,32 @@
     <string name="app_name">Cake Ordering App</string>
 
 
-    <string name="lbl_shape">Choose shape: </string>
-    <string name="lbl_flavor">Choose flavor: </string>
+    <!--choose label-->
+    <string name="lbl_shape">Choose shape</string>
+    <string name="lbl_flavor">Choose flavor</string>
     <string name="lbl_topping">Choose topping</string>
 
-
+    <!--shapes-->
     <string name="lbl_shape_square">Square</string>
     <string name="lbl_shape_heart">Heart</string>
-    <string name="lbl_shape_circle">Circle</string>
+    <string name="lbl_shape_round">Round</string>
 
+    <!--flavors-->
     <string name="lbl_flavor_caramel">Caramel</string>
     <string name="lbl_flavor_chocolate">Chocolate</string>
     <string name="lbl_flavor_strawberry">Strawberry</string>
 
+    <!--toppings-->
     <string name="lbl_topping_fruits">Fresh Fruits</string>
     <string name="lbl_topping_berries">Mixed Berries</string>
     <string name="lbl_topping_choco">Chocolate curls</string>
 
+    <!--message-->
     <string name="lbl_message">Message: </string>
 
+    <!--button-->
     <string name="btn_submit">Submit</string>
+
+
 </resources>
 

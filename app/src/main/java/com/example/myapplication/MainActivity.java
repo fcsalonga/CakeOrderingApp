@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
                 AlertDialog.Builder alertDialogBuilder  = new AlertDialog.Builder(MainActivity.this);
                 alertDialogBuilder.setIcon(R.drawable.ic_cake_black_24dp);
+
                 alertDialogBuilder.setTitle("Ang cake na iyong napili ay ");
                 alertDialogBuilder.setMessage(message);
                 alertDialogBuilder.setPositiveButton("Okay na?", new DialogInterface.OnClickListener() {

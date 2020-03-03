@@ -198,6 +198,7 @@
             <EditText
                 android:id="@+id/greetings"
                 android:layout_width="390dp"
+                android:hint="Type here"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
 
